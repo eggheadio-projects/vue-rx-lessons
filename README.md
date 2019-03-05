@@ -1,4 +1,4 @@
-# [Build Async Vue.js Apps with RxJS]([https://egghead.io/courses/cycle-js-fundamentals](https://egghead.io/courses/build-async-vue-js-apps-with-rxjs))
+# [Build Async Vue.js Apps with RxJS](https://egghead.io/courses/build-async-vue-js-apps-with-rxjs)
 
 All scripts are run in the root package.
 

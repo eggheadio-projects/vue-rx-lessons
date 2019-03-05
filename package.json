@@ -4,6 +4,9 @@
     "lessons/*"
   ],
   "scripts": {
+    "serve": "aux() { yarn workspace:log \"$(cd lessons && ls -d *\"$1\"* | head -1)\" serve; }; aux",
+    "build": "aux() { yarn workspace:log \"$(cd lessons && ls -d *\"$1\"* | head -1)\" build; }; aux",
+    "workspace:log": "aux() { echo \"Running $2 in $1.\" && yarn workspace \"$@\"; }; aux",
     "clean": "rm -rf packages/*/{dist,.cache}",
     "clean:node_modules": "find . -name node_modules | xargs rm -rf",
     "format": "prettier **/*.{js,json} -l --write --ignore-path .gitignore || :",

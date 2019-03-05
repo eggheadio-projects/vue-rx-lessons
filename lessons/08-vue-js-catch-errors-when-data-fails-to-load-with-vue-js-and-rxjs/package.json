@@ -1,5 +1,5 @@
 {
-  "name": "vue-js-catch-errors-when-data-fails-to-load-with-vue-js-and-rxjs",
+  "name": "08-vue-js-catch-errors-when-data-fails-to-load-with-vue-js-and-rxjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {

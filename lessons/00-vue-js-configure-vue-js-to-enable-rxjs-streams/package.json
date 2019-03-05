@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "vue-js-configure-vue-js-to-enable-rxjs-streams",
+  "name": "00-vue-js-configure-vue-js-to-enable-rxjs-streams",
   "version": "0.1.0",
   "scripts": {
     "serve": "vue-cli-service serve --open",

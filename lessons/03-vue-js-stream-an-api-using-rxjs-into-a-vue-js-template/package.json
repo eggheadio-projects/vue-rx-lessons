@@ -1,5 +1,5 @@
 {
-  "name": "vue-js-stream-an-api-using-rxjs-into-a-vue-js-template",
+  "name": "03-vue-js-stream-an-api-using-rxjs-into-a-vue-js-template",
   "version": "0.1.0",
   "private": true,
   "scripts": {

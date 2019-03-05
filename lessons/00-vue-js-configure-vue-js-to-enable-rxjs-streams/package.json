@@ -1,9 +1,6 @@
 {
   "private": true,
-  "workspaces": [
-    "*/lessons"
-  ],
-  "name": "vue-rx-lessons",
+  "name": "vue-js-configure-vue-js-to-enable-rxjs-streams",
   "version": "0.1.0",
   "scripts": {
     "serve": "vue-cli-service serve --open",

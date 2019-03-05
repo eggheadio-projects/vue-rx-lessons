@@ -1,5 +1,5 @@
 {
-  "name": "vue-rx-lessons",
+  "name": "vue-js-split-a-request-into-data-stream-and-an-image-stream-with-rxjs-and-vue-js",
   "version": "0.1.0",
   "private": true,
   "scripts": {

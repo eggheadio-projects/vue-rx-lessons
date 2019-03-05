@@ -1,27 +1,16 @@
 {
-  "private": true,
+  "repository": "git@github.com:eggheadio-projects/vue-rx-lessons.git",
   "workspaces": [
-    "*/lessons"
+    "lessons/*"
   ],
-  "name": "vue-rx-lessons",
-  "version": "0.1.0",
   "scripts": {
-    "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build"
-  },
-  "dependencies": {
-    "vue": "^2.5.13"
+    "clean": "rm -rf packages/*/{dist,.cache}",
+    "clean:node_modules": "find . -name node_modules | xargs rm -rf",
+    "format": "prettier **/*.{js,json} -l --write --ignore-path .gitignore || :",
+    "latest": "yarn upgrade-interactive --latest && yarn upgrade -L"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.6",
-    "@vue/cli-service": "^3.0.0-beta.6",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
-    "vue-template-compiler": "^2.5.13"
+    "prettier": "^1.16.4"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "private": true
 }

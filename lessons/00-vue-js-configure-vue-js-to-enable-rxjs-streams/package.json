@@ -1,13 +1,16 @@
 {
-  "private": true,
   "name": "00-vue-js-configure-vue-js-to-enable-rxjs-streams",
   "version": "0.1.0",
+  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^2.5.13"
+    "buefy": "^0.7.3",
+    "rxjs": "^6.4.0",
+    "vue": "^2.5.13",
+    "vue-rx": "^6.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.6",

@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Replace `.map`, `.pluck`, and `switchmap`, with `.pipe` and imported rxjs operators
 - Directly import `Observable` methods from rxjs
 - Replace `.catch` with the `catchError` operator
+- Fix Yoda's id
 
 ### Removed
 

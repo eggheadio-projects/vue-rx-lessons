@@ -1,9 +1,17 @@
 <template>
   <section>
-    <h1>vue-rx lessons</h1>
+    <h1>{{interval$}}</h1>
   </section>
 </template>
 
 <script>
-export default {};
+import { interval } from 'rxjs'
+
+export default {
+  subscriptions() {
+    return {
+      interval$: interval(1000)
+    }
+  }
+};
 </script>

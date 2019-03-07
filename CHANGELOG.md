@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Buefy's css import has been changed to `import 'buefy/dist/buefy.css'`
+- `Rx` no longer has to be passed into `Vue.use`
+- Replace object syntax in lesson 0's `App.vue` export with function syntax
 - Update `vue-rx#5.0.0->6.1.0`.
 - Update `rxjs#5.5.12->6.4.0`.
 - Update `buefy#0.6.7->0.7.3`.
